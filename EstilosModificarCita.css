@@ -1,0 +1,477 @@
+/* CSS Document */
+
+/*comienzo del trabajo del viernes*/
+
+.modificarL
+{
+position:absolute;
+top:150px;
+left:900px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#000000;
+}
+
+.guardarL
+{
+position:absolute;
+top:180px;
+left:900px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#000000;
+}
+
+.eliminarL
+{
+position:absolute;
+top:210px;
+left:900px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#000000;
+}
+
+/*el fin de lo que realice el viernes 18/08/2017*/
+
+.campo23
+{
+position:absolute;
+top:10px;
+left:240px;
+width:800px;
+height:120px;
+background: rgba(255, 250, 250, 0.36);
+border-radius:30px;
+}
+
+
+
+
+.campo
+{
+position: absolute;
+width:1300px;
+height:1100px;
+background: rgba(255, 250, 250, 0.36);
+}
+
+
+/*estilos del campo 1 de la izquierda*/
+.campo1
+{
+position:relative;
+top:150px;
+left:100px;
+width:600px;
+height:910px;
+background: rgba(1, 0, 0, 0.28);
+border-radius:50px;
+}
+
+.campo2
+{
+position:relative;
+top:180px;
+left:100px;
+width:1100px;
+height:400px;
+background: rgba(1, 0, 0, 0.28);
+}
+
+.asigL
+{
+  position:absolute;
+  top:-10px;
+  left:180px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:36px;
+  color:#000000;
+}
+
+.datos1L
+{
+position:absolute;
+top:80px;
+left:50px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+color:#000000;
+}
+
+
+.documentoL
+{
+position:absolute;
+top:170px;
+left:50px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:20px;
+color:#000000;
+}
+
+.documento
+{
+position:absolute;
+top:180px;
+left:350px;
+width:210px;
+height:40px;
+}
+
+.linea
+{
+position:absolute;
+top:800px;
+left:50px;
+width:500px;
+height:3px;
+background-color:#000000;
+}
+
+/*estilos de los datos del especialista*/
+
+.documentoEL
+{
+ position:absolute;
+ top:250px;
+ left:50px;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+ font-size:20px;
+ color:#000000;
+ 
+}
+
+.documentoE
+{
+position:absolute;
+top:260px;
+left:350px;
+width:210px;
+height:40px;
+}
+
+
+/*estilos de los datos de la citas */
+
+.fecha01L
+{
+position:absolute;
+top:330px;
+left:50px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:20px;
+color:#000000;
+}
+
+.fecha
+{
+position:absolute;
+top:340px;
+left:350px;
+width:210px;
+height:40px;
+}
+
+.hora01L
+{
+position:absolute;
+top:410px;
+left:50px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:20px;
+}
+
+.hora01
+{
+position:absolute;
+top:410px;
+left:350px;
+width:210px;
+height:40px;
+
+}
+
+.fechaA
+{
+position:absolute;
+top:470px;
+left:50px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:20px;
+color:#FFFFFF;
+}
+
+.chek
+{
+position:absolute;
+top:500px;
+left:440px;
+width:25px;
+height:25px;
+}
+
+
+
+
+
+.fechaL
+{
+position:absolute;
+top:550px;
+left:50px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:20px;
+color:#000000;
+}
+
+.dia
+{
+position:absolute;
+top:560px;
+left:350px;
+width:60px;
+height:40px;
+}
+
+.mes
+{
+position:absolute;
+top:560px;
+left:420px;
+width:70px;
+height:40px;
+}
+
+.ano
+{
+position:absolute;
+top:560px;
+left:500px;
+width:60px;
+height:40px;
+}
+
+.horaL
+{
+position:absolute;
+top:620px;
+left:50px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:20px;
+}
+
+.hora
+{
+position:absolute;
+top:630px;
+left:400px;
+width:70px;
+height:40px;
+}
+
+.minuto
+{
+position:absolute;
+top:630px;
+left:480px;
+width:80px;
+height:40px;
+}
+
+
+
+.consultorioL
+{
+position:absolute;
+top:690px;
+left:50px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:20px;
+}
+
+.consultorio
+{
+position:absolute;
+top:700px;
+left:350px;
+width:210px;
+height:40px;
+}
+
+
+
+
+
+
+/*efectos de transicion con css3 de la parte derecha*/
+
+
+.boton:before
+{
+  content:'';
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:0px;
+  height:50px;/*esto hace el ancho de la barra de carga*/
+  background:rgba(255, 250, 250, 0.36);
+  border-radius:50px;
+  transition:all 0.5s ease;/*controla la velocidad de la barra de carga*/
+}
+
+
+.boton
+{
+position:absolute;
+top:0px;
+left:0px;
+width:250px;
+height:50px;
+border:none;
+background:#ffffff;
+color:#000000;
+font-size:18px;
+padding: 0px;/*me agranda el div y cambia de posicion la letra*/
+border-radius:50px;/*hace que los botones se bean semi redondos */
+position:relative;/*hace una animacion lenta al refrescar la pagina*/
+box-sizing: border-box;/*con este*/
+transition: all 500ms ease;/*y este*/
+}
+
+.boton:hover
+{
+background:rgba(255, 250, 250, 0.36);/*color en en cual se hace la transformacion*/
+color:#ffffff;/*color de letra*/
+box-shadow:inset 0 0 0 3px #ffffff; /*color del borde de la linea*/
+}
+
+.boton:hover:before {
+ width: 100%;/*me sirve para que se forme el efecto de barra de carga*/
+}
+
+.boton1
+{
+  position:absolute;
+  top:830px;
+  left:180px; 
+}
+
+
+
+.campo22
+{
+position:absolute;
+top:1100px;
+left:0px;
+width:1300px;
+height:400px;
+background: rgba(1, 0, 0, 0.28);
+}
+
+/*987987987987987987987987987987987987987987987987987987987*/
+.campo5
+{
+position:absolute;
+top:150px;
+left:750px;
+width:450px;
+height:500px;
+background: rgba(1, 0, 0, 0.28);
+border-radius:50px;
+}
+
+.img2
+{
+position:absolute;
+top:30px;
+left:370px;
+width:50px;
+height:50px;
+border-radius:40px;
+}
+
+.salir
+{
+position:absolute;
+top:20px;
+left:280px;
+width:150px;
+height:70px;
+background: rgba(255, 250, 250, 0.36);
+border-radius:50px;
+}
+
+.salirL
+{
+position:absolute;
+top:-10px;
+left:10px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:26px;
+color:#000000;
+}
+
+
+
+.modificarL
+{
+position:absolute;
+top:120px;
+left:120px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:26px;
+color:#ffffff;
+}
+
+.eliminar
+{
+position:absolute;
+top:240px;
+left:35px;
+width:380px;
+height:200px;
+background: rgba(255, 250, 250, 0.36);
+border-radius:30px;
+}
+
+.eliminar0L
+{
+position:absolute;
+top:-10px;
+left:40px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+color:#FFFFFF;
+}
+
+.identificacionCliente
+{
+position:absolute;
+top:80px;
+left:60px;
+width:250px;
+height:40px;
+border-radius:30px;
+}
+
+
+.boton2
+{
+  position:absolute;
+  top:140px;
+  left:110px;
+  width:150px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
