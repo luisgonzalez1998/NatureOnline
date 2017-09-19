@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="EstilosRegistro.css">
 
 <link rel="stylesheet" href="EstilosEspecialistaHistorial.css" />
+<link rel="stylesheet" href="EstilosNuevoHistorial.css" />
  <link rel="stylesheet" href="xd.css"/>	
   <link rel="stylesheet" href="Style.css"/>	
   
@@ -41,7 +42,7 @@ background-attachment:fixed;
 
 }
 </style>
-<body>
+
 
 <?php
 
@@ -80,31 +81,26 @@ $nota=$_SESSION['2nota'];
 
 ?>
 
-
-
-
-
-
+<body>
 
 
 <div class="baner">
   <p>&nbsp;</p>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
+ 
   
 <iframe src="Menu1.php" width="1450" height="100" scrolling="no" frameborder="0"></iframe>
 
 <iframe src="silider.html"  width="1300" height="380" scrolling="no" frameborder="0"></iframe>
+<div class="caja01">
 
-<div class="campo3">
-
-		
 
 <div class="campo4">
 <p class="historiaL">Historia Clinica.</p>
 
 <p class="dato">Datos personales.</p>
-<div class="linea"></div>
+<div class="lineadato"></div>
 <img src="img_fotoP.jpg" class="foto1" /> 
 
 <form id="form2" name="form2" method="post" action="ActualizarHistorialC.php">
@@ -168,37 +164,45 @@ $nota=$_SESSION['2nota'];
 		
 </form>
 
+
 </div>
 
 
 
 
 
-<div class="campo5"></div>
-<div class="campo6"></div>
-
-<div class="campo7">
-<?php 
-include('footer.html');
-?>
 </div>
 
+		
 
-<div class="campo8">
+<div class="campo6 caja02">
+<p class="publicidadLetra"><u>Bronquinat</u></p>
+<img src="img_Bronquinat.jpg" class="publicidad1" />
+<p class="publicidadLetra1">Precio  50.000 pesos</p>
+<p class="publicidadLetra2">Ir a catalogo</p>
+</div>
 
+<div class="campo5 caja03">
+<img src="img_agario.jpg" class="publicidad2" />
+<p class="publicidadLetra3">Agario</p>
+<p class="publicidadLetra4">Visita el juego de moda</p>
+</div>
+
+<div class="caja04">
 <?php
 include('BusquedaEspecialista.php');
 ?>
+</div>
 
+<div class="caja05">
+<?php
+include('Footer.html');
+?>
 </div>
 
 
+ </div>
 
-<iframe src=""  width="1300" height="500" scrolling="no" frameborder="0"></iframe>
-
-  </div>
-  
-  </div>
 
 
 
@@ -206,6 +210,9 @@ include('BusquedaEspecialista.php');
   
   
   </body>
+
+
+
 
 </html>
   

@@ -3,7 +3,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" href="EstilosRegistro.css">
-
 <link rel="stylesheet" href="EstilosEspecialistaHistorial.css" />
  <link rel="stylesheet" href="xd.css"/>	
   <link rel="stylesheet" href="Style.css"/>	
@@ -43,7 +42,7 @@ background-attachment:fixed;
 </style>
 
 
-<body>
+<body background="img_foto2.jpg">
 
 
 <div class="baner">
@@ -54,8 +53,8 @@ background-attachment:fixed;
 <iframe src="Menu1.php" width="1450" height="100" scrolling="no" frameborder="0"></iframe>
 
 <iframe src="silider.html"  width="1300" height="380" scrolling="no" frameborder="0"></iframe>
-
-<div class="campo3">
+</div>
+<div class="cubo1">
 
 		
 
@@ -63,7 +62,7 @@ background-attachment:fixed;
 <p class="historiaL">Historia Clinica</p>
 
 <p class="dato">Datos personales.</p>
-<div class="linea"></div>
+<div class="lineadato"></div>
 <img src="img_fotoP.jpg" class="foto1" /> 
 
 <form id="form2" name="form2" method="" action="">
@@ -104,7 +103,7 @@ background-attachment:fixed;
 		
 	<div class="linea4"></div>
 	
-	</form>
+  </form>
 	
 		
 	
@@ -131,17 +130,29 @@ background-attachment:fixed;
 
 
 
+<div class="campo6">
+<p class="publicidadLetra"><u>Bronquinat</u></p>
+<img src="img_Bronquinat.jpg" class="publicidad1" />
+<p class="publicidadLetra1">Precio  50.000 pesos</p>
+<p class="publicidadLetra2">Ir a catalogo</p>
+</div>
+
+<div class="campo5">
+<img src="img_agario.jpg" class="publicidad2" />
+<p class="publicidadLetra3">Agario</p>
+<p class="publicidadLetra4">Visita el juego de moda</p>
+</div>
 
 
-<div class="campo5"></div>
-<div class="campo6"></div>
 
-<div class="campo7">
-<?php 
+
+
+<div class="campo88"></div>
+<div class="unico">
+<?php
 include('footer.html');
 ?>
 </div>
-
 
 <div class="campo8">
 
@@ -152,19 +163,18 @@ include('BusquedaEspecialista.php');
 </div>
 
 
+</div>
 
-<iframe src=""  width="1300" height="500" scrolling="no" frameborder="0"></iframe>
 
-  </div>
+
+
+
+
+
+
   
-  </div>
-
-
-
   
-  
-  
-  </body>
+</body>
 
 </html>
   

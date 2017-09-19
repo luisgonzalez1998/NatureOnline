@@ -209,7 +209,7 @@ $ccorreo=$_SESSION['ccorreo'];
 				  		  <p class="consultorioL">Consultorio.</p>
 		<input type="text" name="consultorio" class="consultorio" />
 		
-		<div class="linea"></div>
+		<div class="lineacrear"></div>
 				  
 				  		 <button class="boton boton1" >Guardar Cita Medica</button>
 </form>
@@ -228,14 +228,27 @@ $ccorreo=$_SESSION['ccorreo'];
 </form>
 </div>
 
-<div class="campo007"></div>
+<div class="campo007">
+<p class="publicidadLetra">Bronquinat</p>
+<img src="img_Bronquinat.jpg" class="publicidad1" />
+<p class="publicidadLetra1">Precio  50.000 pesos</p>
+<p class="publicidadLetra2">Ir a catalogo</p>
+
+<div class="lineax"></div>
+
+<p class="publicidadLetra3">Shampoo</p>
+<img src="img_shampoo.jpg" class="publicidad2" />
+<p class="publicidadLetra4">Precio  35.000 pesos</p>
+
+
+</div>
 
 </div>
 
 
 
+<div class="campo30">
 
-<div class="campo22">
 <?php
 include('footer.html');
 ?>
@@ -249,10 +262,6 @@ include('BusquedaEspecialista.php');
 
 </div>
 
-<iframe src=""  width="1300" height="500" scrolling="no" frameborder="0"></iframe>
-
-</div>
-  
  
 
   

@@ -119,7 +119,7 @@ $ffecha = $dia."/".$mes."/".$ano;
 				  		  <p class="consultorioL">Consultorio.</p>
 		<input type="text" name="consultorio" class="consultorio" value="<?php echo $consultorio ;?>" readonly  />
 		
-		<div class="linea"></div>
+		<div class="lineacrear"></div>
 				  
 				  		 
 </form>

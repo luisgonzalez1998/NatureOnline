@@ -43,6 +43,14 @@ background: rgba(255, 250, 250, 0.36);
 border-radius:50px;
 }
 
+.imgburger
+{
+width:400px;
+height:600px;
+border-radius:50px;
+
+}
+
 /*comenzamos cone el campo 8 que tiene los datos que se van actualizar*/
 
 .actualizarL

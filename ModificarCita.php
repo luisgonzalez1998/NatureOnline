@@ -226,7 +226,7 @@ $ffecha = $dia."/".$mes."/".$ano;
 				  		  <p class="consultorioL">Consultorio.</p>
 		<input type="text" name="consultorio" class="consultorio" value="<?php echo $consultorio ; ?>" />
 		
-		<div class="linea"></div>
+		<div class="lineacrear"></div>
 				  
 				  		 <button class="boton boton1" >Guardar Cita Medica</button>
 </form>
@@ -238,7 +238,7 @@ $ffecha = $dia."/".$mes."/".$ano;
      <div class="salir"><a href="CrearCita.php"> <p class="salirL"><u>Salir.</p></u></a></div>
 	 <img src="img_iconocerrar.jpg" class="img2" />
 
-         <a href="ModificarCitaC.php"> <p class="modificarL"><u>Modificar Cita.</u></p></a>
+         
 		 
 	<div class="eliminar">
 	 <p class="eliminar0L">¿Deseas eliminar la cita?</p>

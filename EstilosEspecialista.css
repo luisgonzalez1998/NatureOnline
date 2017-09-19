@@ -138,7 +138,7 @@ height:40px;
 
 
 
-.linea
+.lineacrear
 {
 position:absolute;
 top:600px;
@@ -356,6 +356,87 @@ height:400px;
 background: rgba(1, 0, 0, 0.28);
 }
 
+.publicidad1
+{
+margin-top:-60px;
+margin-left:10px;
+width:130px;
+height:130px;
+border-radius:100px;
+}
+
+.publicidadLetra
+{
+margin-top:80px;
+margin-left:150px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+color:#000000;
+}
+
+.publicidadLetra1
+{
+margin-top:-70px;
+margin-left:150px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+color:#000000;
+}
+
+.publicidadLetra2
+{
+margin-top:-170px;
+margin-left:120px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+color:#ffffff;
+}
+
+.lineax
+{
+margin-top:170px;
+margin-left0px:;
+width:400px;
+height:2px;
+background-color:#000000;
+}
+
+.publicidad2
+{
+margin-top:-80px;
+margin-left:10px;
+width:130px;
+height:130px;
+border-radius:100px;
+}
+
+.publicidadLetra3
+{
+margin-top:50px;
+margin-left:150px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+color:#000000;
+}
+
+.publicidadLetra4
+{
+margin-top:-60px;
+margin-left:150px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+color:#000000;
+}
+
+.campo30
+{
+position:absolute;
+top:1000px;
+left:0px;
+width:1300px;
+height:500px;
+background-color:#003333;
+}
 
 
 

@@ -1,5 +1,7 @@
 /* CSS Document */
 
+
+
 .foto88
 {
 position:relative;
@@ -15,7 +17,7 @@ z-index:1;
 {
 position:relative;
 top:150px;
-left:80px;
+margin-left:300px;
 width:650px;
 height:230px;
 background-color:#ffffff;

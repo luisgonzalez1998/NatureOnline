@@ -45,8 +45,9 @@ class Cita
 					$this->minuto = $Minuto;
 					$Consultorio = $consultorio;
 					$this->consultorio = $Consultorio;
+					$this->cumplio = 0;
 					
-					mysqli_query($db, "INSERT INTO cita (id, idC, idE, dia, mes, ano, hora, minuto, consultorio) VALUES (NULL, '$this->documentoC', '$this->documentoE', '$this->dia',  '$this->mes', '$this->ano', '$this->hora', '$this->minuto', '$this->consultorio')")
+					mysqli_query($db, "INSERT INTO cita (id, idC, idE, dia, mes, ano, hora, minuto, consultorio, cumplio) VALUES (NULL, '$this->documentoC', '$this->documentoE', '$this->dia',  '$this->mes', '$this->ano', '$this->hora', '$this->minuto', '$this->consultorio','$this->cumplio')")
 					or die (mysqli_error($db));
 	
 			  }

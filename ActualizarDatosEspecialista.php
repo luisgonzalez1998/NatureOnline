@@ -3,7 +3,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" href="EstilosRegistro.css">
-
 <link rel="stylesheet" href="EstilosEspecialistaActualizar.css" />
  <link rel="stylesheet" href="xd.css"/>	
   <link rel="stylesheet" href="Style.css"/>	
@@ -105,7 +104,10 @@ $ccontrasena=$_SESSION['1password'];
 
 
 
-<div class="campo9"></div>
+<div class="campo9">
+<img src="img_burguer.png" class="imgburger" />
+</div>
+
 <div class="campo10">
 
 <?php
@@ -122,9 +124,7 @@ include('BusquedaEspecialista.php');
 
 </div>
 
-<iframe src=""  width="1300" height="500" scrolling="no" frameborder="0"></iframe>
 
-  </div>
   
  
 

@@ -6,6 +6,8 @@
 
 <link rel="stylesheet" href="EstilosEspecialistaHistorial.css" />
 <link rel="stylesheet" href="EstilosConsultarAgenda.css" />
+<link rel="stylesheet" href="estilosAgenda.css" />
+
  <link rel="stylesheet" href="xd.css"/>	
   <link rel="stylesheet" href="Style.css"/>	
   
@@ -45,35 +47,18 @@ background-attachment:fixed;
 <body>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="baner">
   <p>&nbsp;</p>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
+ 
   
 <iframe src="Menu1.php" width="1450" height="100" scrolling="no" frameborder="0"></iframe>
 
 <iframe src="silider.html"  width="1300" height="380" scrolling="no" frameborder="0"></iframe>
+<div class="parte1">
 
-<div class="campo3">
-
-
-
-<div class="campo4">
+<p class="listado">Listado de citas pendientes</p>
 
 <?php
 
@@ -197,42 +182,19 @@ $nuevo->ConsultarAgenda($cumplio);
 
 
 ?>
-
 </div>
 
-		
-
-
-
-
-
-
-
-<div class="campo5"></div>
-<div class="campo6"></div>
-
-<div class="campo7">
-<?php 
-include('footer.html');
-?>
-</div>
-
-
-<div class="campo8">
-
+<div class="parte2">
 <?php
-include('BusquedaEspecialista.php');
-?>
 
+include('Footer.html');
+
+?>
 </div>
 
 
+</div>
 
-<iframe src=""  width="1300" height="500" scrolling="no" frameborder="0"></iframe>
-
-  </div>
-  
-  </div>
 
 
 

@@ -3,143 +3,354 @@
 
 .c8
 {
-   position:absolute;
-   top:00px;
-   left:00px;
+position:relative;
+   top:0px;
+   left:0px;
    width:1300px;
-   height:400px;
-background: rgba(255, 250, 250, 0.36);
+   height:600px;
+   background: #ECE5E5;
 
 }
+
+.linea22
+{
+position:absolute;
+top:140px;
+left:00px;
+width:1300px;
+height:3px;
+background:#000000;
+}
+
+.linea1
+{
+position:absolute;
+top:170px;
+left:450px;
+width:2px;
+height:390px;
+background:#000000;
+}
+
+.linea
+{
+position:absolute;
+top:170px;
+left:850px;
+width:2px;
+height:390px;
+background:#000000;
+}
+
+
 
 
 /*estilos de la letra del footer*/
 
-.direccion
-{
-  position:absolute;
-  top:50px;
-  left:100px;
-  font-family:Verdana, Arial, Helvetica, sans-serif;
-  font-size:36px;
-  color:#FFFFFF;
-}
+
 
 .redes
 {
    position:absolute;
-   top:50px;
-   left:370px;
+   top:-30px;
+   left:540px;
    font-family:Verdana, Arial, Helvetica, sans-serif;
    font-size:36px;
    color:#FFFFFF;
 }
 
-.servicio
-{
-  position:absolute;
-  top:50px;
-  left:680px;
-  font-family:Verdana, Arial, Helvetica, sans-serif;
-  font-size:36px;
-  color:#FFFFFF;
-}
-
-.correo
-{
-  position:absolute;
-  top:50px;
-  left:920px;
-  font-family:Verdana, Arial, Helvetica, sans-serif;
-  font-size:36px;
-  color:#FFFFFF;  
-}
 
 /*posiciones de las imagenes de redes sociales*/
 
 .i1
 {
   position:absolute;
-  top:160px;
+  top:60px;
   left:360px;
   width:70px;
   height:70px;
+  border-radius:40px;
 }
 
 .i2
 {
   position:absolute;
-  top:160px;
+  top:60px;
   left:450px;
   width:70px;
   height:70px;
+  border-radius:40px;
 }
 
 .i3
 {
   position:absolute;
-  top:160px;
+  top:60px;
   left:540px;
   width:70px;
   height:70px;
+  border-radius:40px;
 }
 
 .i4
 {
   position:absolute;
-  top:250px;
-  left:360px;
+  top:60px;
+  left:630px;
   width:70px;
   height:70px;
+  border-radius:40px;
 }
 
 .i5
 {
   position:absolute;
-  top:250px;
-  left:450px;
+  top:60px;
+  left:720px;
   width:70px;
   height:70px;
+  border-radius:40px;
 }
 
 .i6
 {
   position:absolute;
-  top:250px;
-  left:540px;
+  top:60px;
+  left:810px;
   width:70px;
   height:70px;
+  border-radius:40px;
 }
 
-.dir
+.desarrollo
 {
-  position:absolute;
-  top:140px;
-  left:90px;
-  font-family:Verdana, Arial, Helvetica, sans-serif;
-  font-size:18px;
-  color:#FFFFFF;
+position:absolute;
+top:160px;
+left:160px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:20px;
+color:#000000;
 }
 
-.ser
+.i7
 {
   position:absolute;
-  top:130px;
-  left:680px;
-  font-family:Verdana, Arial, Helvetica, sans-serif;
-  font-size:24px;
-  color:#FFFFFF;
+  top:225px;
+  left:30px;
+  width:70px;
+  height:70px;
+  border-radius:40px;
 }
 
-.cor
+.i8
 {
   position:absolute;
-  top:130px;
-  left:910px;
-  font-family:Verdana, Arial, Helvetica, sans-serif;
-  font-size:24px;
-  color:#FFFFFF;
+  top:300px;
+  left:30px;
+  width:70px;
+  height:70px;
+  border-radius:40px;
 }
+
+.i9
+{
+  position:absolute;
+  top:375px;
+  left:30px;
+  width:70px;
+  height:70px;
+  border-radius:40px;
+}
+
+.i10
+{
+  position:absolute;
+  top:450px;
+  left:30px;
+  width:70px;
+  height:70px;
+  border-radius:40px;
+}
+
+.i11
+{
+  position:absolute;
+  top:525px;
+  left:30px;
+  width:70px;
+  height:70px;
+  border-radius:40px;
+}
+
+.L1
+{
+position:absolute;
+top:225px;
+left:150px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#000000;
+}
+
+.L2
+{
+position:absolute;
+top:305px;
+left:150px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#000000;
+}
+
+.L3
+{
+position:absolute;
+top:375px;
+left:150px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#000000;
+}
+
+.L4
+{
+position:absolute;
+top:445px;
+left:150px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#000000;
+}
+
+.L5
+{
+position:absolute;
+top:520px;
+left:150px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#000000;
+}
+
+.mas
+{
+position:absolute;
+top:160px;
+left:550px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:20px;
+color:#000000;
+}
+
+.L6
+{
+position:absolute;
+top:230px;
+left:560px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#000000;
+}
+
+.L7
+{
+position:absolute;
+top:280px;
+left:560px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#000000;
+}
+
+.L8
+{
+position:absolute;
+top:330px;
+left:560px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#000000;
+}
+
+.L9
+{
+position:absolute;
+top:380px;
+left:560px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#000000;
+}
+
+.con
+{
+position:absolute;
+top:160px;
+left:970px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:20px;
+color:#000000;
+}
+
+.direccion
+{
+position:absolute;
+top:220px;
+left:920px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#000000;
+}
+
+.pbx
+{
+position:absolute;
+top:270px;
+left:920px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#000000;
+}
+
+.correo
+{
+position:absolute;
+top:320px;
+left:920px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#000000;
+}
+
+.imagen
+{
+position:absolute;
+top:340px;
+left:920px;
+width:320px;
+height:200px;
+border-radius:20px;
+
+}
+
+.imagen1
+{
+position:absolute;
+top:4px;
+left:10px;
+width:200px;
+height:130px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
