@@ -1,0 +1,142 @@
+/* CSS Document */
+
+form{
+width: 1200px;
+margin:auto;
+background:rgba(0,0,0,0.7);
+padding: 10px 20px;
+box-sizing: border-box;
+margin-top:20px;
+border-radius: 7px;
+}
+.textos{
+color:#FFFFFF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+}
+
+
+.titulocita{
+color:#FFFFFF;
+text-align:center;
+font:Verdana, Arial, Helvetica, sans-serif;
+font-size:40px;
+
+}
+/*Inicio Codigo Fecha*/
+.fechaC
+{
+height:300px;
+height:30px;
+color:#000;
+margin-top:10px;
+
+}
+.textosF{
+color:#FFFFFF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+margin-left:250px;
+}
+/*Fin Codigo Fecha*/
+
+/*Inicio Codigo Hora*/
+.horaC{height:300px;
+height:30px;
+color:#000;
+
+}
+.textosH{color:#FFFFFF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+margin-top:-40px;
+margin-left:800px
+}
+/*Fin Codigo Hora*/
+.nombre
+{width:400px;
+height:40px;
+margin-bottom:10px;
+padding:6px;
+box-sizing: border-box;
+}
+.apellidoC{width:400px;
+height:40px;
+margin-bottom:10px;
+padding:6px;
+box-sizing: border-box;
+}
+.direccionC{width:400px;
+height:40px;
+margin-bottom:10px;
+padding:6px;
+box-sizing: border-box;
+}
+.telefonoC{width:400px;
+height:40px;
+margin-bottom:10px;
+padding:6px;
+box-sizing: border-box;
+}
+
+/*Codigo Identificacion*/
+.IdentifacionC{height:300px;
+height:40px;
+width:380px;
+color:#000;
+
+}
+.textosI{color:#FFFFFF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+margin-top:-5px;
+margin-left:-50px
+}
+/*Fin codigo identificacion*/
+
+/*Codigo Estado civli*/
+.estadoc
+{
+width:200px;
+color:#000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+margin-top:-5px;
+margin-left:0px
+}
+
+.textosE{
+margin-left:30px;}
+/*Fin codigo estdo civil*/
+
+
+.botonCI{
+background:#006600;
+border-radius:10px;
+color:#FFFFFF;
+height:50px;
+margin-left:500px;
+width:150px;
+cursor:pointer;
+}
+
+h6{
+position:relative;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+
+}
+
+.edadC{
+width:50px;
+height:30px;
+margin-top:30px;
+
+}
+
+.correoC
+{
+width:400px;
+height:40px;
+}
+

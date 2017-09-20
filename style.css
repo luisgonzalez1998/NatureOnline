@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?79bhw7');
-  src:  url('fonts/icomoon.eot?79bhw7#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?79bhw7') format('truetype'),
-    url('fonts/icomoon.woff?79bhw7') format('woff'),
-    url('fonts/icomoon.svg?79bhw7#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?tc38e6');
+  src:  url('fonts/icomoon.eot?tc38e6#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?tc38e6') format('truetype'),
+    url('fonts/icomoon.woff?tc38e6') format('woff'),
+    url('fonts/icomoon.svg?tc38e6#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -27,8 +27,11 @@
 .icon-casa:before {
   content: "\e900";
 }
-.icon-Iniciar:before {
-  content: "\e916";
+.icon-historial:before {
+  content: "\e930";
+}
+.icon-cita:before {
+  content: "\e944";
 }
 .icon-ubicacion:before {
   content: "\e947";
@@ -36,11 +39,14 @@
 .icon-conocenos:before {
   content: "\e976";
 }
-.icon-busqueda:before {
-  content: "\e986";
-}
-.icon-chat:before {
+.icon-catalogo:before {
   content: "\e9b8";
+}
+.icon-mas:before {
+  content: "\ea05";
+}
+.icon-informacion:before {
+  content: "\ea0c";
 }
 .icon-facebook:before {
   content: "\ea91";

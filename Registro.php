@@ -1,32 +1,24 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <link rel="stylesheet" href="EstilosRegistro.css">
  <link rel="stylesheet" href="xd.css"/>	
   <link rel="stylesheet" href="Style.css"/>	
-  
+   <link rel="stylesheet" href="loginst.css"/>	
+ <script src="alert/dist/sweetalert.min.js"></script>  
+   <link rel="stylesheet" type="text/css" href="alert/dist/sweetalert.css">
+
   
 
-<title>Documento sin t&iacute;tulo</title>
-<style type="text/css">
-<!--
-.Estilo1 {
-	font-family: "Times New Roman", Times, serif;
-	left: 0px;
-	top: -50px;
-	font-size: 80px;
-	color: #FFFFFF;
-	position: absolute;
-}
--->
-</style>
+<title>Nature Online</title>
 </head>
+<div class="container">
 <div class="social-bar">
     <a href="https://www.facebook.com/tostaocafeypan/" class="icon icon-facebook" target="_blank"></a>
     <a href="https://twitter.com/tostaocafeypan/" class="icon icon-twitter" target="_blank"></a>
 	<a href="https://www.instagram.com/tostaocafeypan/" class="icon icon-instagram" target="_blank"></a>
-		     
+</div>
 </div>
 <style>
 body{
@@ -39,100 +31,107 @@ background-attachment:fixed;
 
 }
 </style>
+
 <body>
 
 
-<div class="baner">
+<div class="banner">
+
+			<ul class="menu">
+				
+				<li><a href=""> Iniciar SesiÃ³n</a> 
+					<ul class="submenu">
+						<li><a href="videologin.php"><img src="usuario.png" /> Usuario</a></li>
+						<li><a href="videologinadmin.php"><img src="administrador.png"> Administrador</a></li>
+						<li><a href="videologinespe.php"><img src="especialista.png"> Especialista</a></li>
+					</ul>
+				</li>
+			
+			</ul>
+		</nav>
+		
+<p>&nbsp;</p>
   <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
+  
 <iframe src="Menup.php" width="1450" height="100" scrolling="no" frameborder="0"></iframe>
 
-<iframe src="silider.html"  width="1300" height="380" scrolling="no" frameborder="0"></iframe>
-
+<iframe src="slider.php"width="1300" height="384" scrolling="no" frameborder="0"></iframe>
 <div class="c1">
-  <form id="form2" name="form2" method="post" action="">
+<!--Inicio formulario-->
+  <form id="form2" name="form2" method="post" action="registrar2.php" >
     <label>
 	<p class="crear">Crea tu cuenta ahora</p>
 	<p class="nombreL">Nombre</p>
+  	<input class="nombre" type="text" name="nombre" placeholder="Nombre" required="" />
     <p class="apellidoL">Apellido</p>
     <input class="apellido" type="text" name="apellido" placeholder="Apellido" />
 	<p class="correoRL">Correo Electronico</p>
     <input class="correoR" type="text" name="correo" placeholder="Correo Electronico"/>
-	<p class="contrasenaL">Contrasena</p>
-    <input class="contrasena" type="text" name="contrasena" placeholdEr="Contrasena"/>
+	<p class="contrasenaL">ContraseÃ±a</p>
+  <input class="contrasena" type="password"  name="contrasena" placeholder="ContraseÃ±a"/>
+
 	<p class="documentoL">Documento</p>
-    <input class="documento" type="text" name="documento" placeholder="Documento" />
+     <input class="documento" type="text" name="documento" placeholder="Documento"/>
     </label>
-    	<label>
-	<p class="fechaL">Fecha de nacimiento</p>
-	<select class="dia" name="select">
-	  <option value="edad:">Edad:</option>
-	  <option value="1">1</option>
-	  <option value="2">2</option>
-	  <option value="3">3</option>
-    </select>
-    <select class="mes" name="select2">
-      <option value="enero">enero</option>
-      <option value="febrero">febrero</option>
-      <option value="mes:" selected="selected">mes:</option>
-    </select>
-    <select class="ano" name="select3">
-      <option value="ano:" selected="selected">ano:</option>
-      <option value="2016">2016</option>
-      <option value="2017">2017</option>
-      <option value="2018">2018</option>
-    </select>
-	<p class="condicion">Al hacer clic en "Crear cuenta", aceptas las Condiciones</br> y confirmas que leíste nuestra Política de datos, incluido </br> el uso de cookies. Es posible que recibas notificaciones </br> por SMS de Nature online, que puedes desactivar</br> en cualquier momento.</p>
-    <input class="boton1" type="submit" name="Submit2" value="Registrarse" />
-    <input class="mujer" type="radio" name="GrupoOpciones1" value="mujer" />
-    <p class="mujerL"> Mujer</p>         
-        <input class="hombre" type="radio" name="GrupoOpciones1" value="opción" />
+    <label>
+    <P class="edades">Edad: 
+	
+	<input class="edad" type="text"	placeholder="Edad" name="edad"/>
+	</P>
+	<input class="mujer" type="radio" name="genero" value="0" />
+    <p class="mujerL"> Mujer</p>  
+	<input class="hombre" type="radio" name="genero" value="1" />       
         <p class="hombreL"> Hombre</p>  
 		
 		<p class="numeroL">Numero telefonico</p>
-		<input class="numero" tipe="text" name="numero" placeholder="Numero telefonico" />
-		    
+		<input class="numero" type="text" name="numero" placeholder="Numero_telefonico" />
+		<p class="condicion">Al hacer clic en "Crear cuenta", aceptas las Condiciones</br> y confirmas que le&iacute;ste nuestra Pol&iacute;tica de datos, incluido </br>
+        el uso de cookies. Es posible que recibas notificaciones </br> por SMS de Nature online, que puedes &ograve;desactivar</br> en cualquier momento.</p>
+        <input class="boton1" type="submit" name="registrar" value="Registrarse" />
+    
      </label>
   </form>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>
-    <input class="nombre" type="text" name="nombre" placeholder="Nombre" required />
-  </p>
-</div>
+  <!--Fin del formulario-->
   
+  
+  
+</div>
+
+
 <div class="c2">
 
 <img src="img_descarga.jpg" class="p1" />
-<p class="p11L"><u><b>Salud</b></u></p>
-<p class="p1L">Al hacer clic en "Crear cuenta", aceptas las Condiciones</br> y confirmas que leíste nuestra Política de datos, incluido </br> el uso de cookies. Es posible que recibas notificaciones </br> por SMS de Nature online, que puedes desactivar</br> en cualquier momento. Al hacer clic en "Crear cuenta",</br> y confirmas que leíste nuestra Política de datos, incluido </br> </p>
+<p class="p11L"><strong>Salud</strong></p>
+<p class="p1L">Aumenta el uso de la medicina naturista para prevenir enfermedades. Algunos mÃ©dicos la recomiendan y explican <br />que este tipo de medicamentos sirven como coadyuvantes<br /> para los efectos de la medicina tradicional. Incrementa.CartÃ­lagos de tiburÃ³n, arcillas minerales,<br /> hojas de calÃ©ndula y turrones saludables, son algunos de los productos que a menudo se mencionan en las tiendas naturistas. Sus vendedores los recomiendan como productos alternativos de la medicina tradicional y hasta informalmente, algunos mÃ©dicos, los recomiendan a sus pacientes. </br> </p>
 
 <img src="img_aguacate.jpg" class="p2" />
-<p class="p22L"><u><b>Alimentacion</b></u></p>
-<p class="p2L">Al hacer clic en "Crear cuenta", aceptas las Condiciones</br> y confirmas que leíste nuestra Política de datos, incluido </br> el uso de cookies. Es posible que recibas notificaciones </br> por SMS de Nature online, que puedes desactivar</br> en cualquier momento. Al hacer clic en "Crear cuenta",</br> y confirmas que leíste nuestra Política de datos, incluido </br></p>
+<p class="p22L"><b>AlimentaciÃ³n</b></p>
+<p class="p2L">Tiende a estar de moda en diferentes paÃ­ses principalmente<br /> por una cuestiÃ³n bÃ¡sica: aporta un buen nÃºmero de propiedades y beneficios al organismo, y ayuda al correcto y buen funcionamiento de la salud.
 
-<img src="img_alimentacion.jpg" class="p3" />
-<p class="p33L"><u><b>Recetas naturales</b></u></p>
-<p class="p3L">Al hacer clic en "Crear cuenta", aceptas las Condiciones</br> y confirmas que leíste nuestra Política de datos, incluido </br> el uso de cookies. Es posible que recibas notificaciones </br> por SMS de Nature online, que puedes desactivar</br> en cualquier momento. Al hacer clic en "Crear cuenta",</br> y confirmas que leíste nuestra Política de datos, incluido </br></p>
+Se caracteriza porque los alimentos que Ãºnicamente consume la persona que adopta la alimentaciÃ³n naturista es fundamentalmente natural y vegetal, evitando siempre el consumo de alimentos de origen animal (podrÃ­a decirse que es una alimentaciÃ³n sana en sÃ­ misma). </br></p>
+
+<img src="alimentacion.jpg" class="p3" />
+<p class="p33L"><b>Recetas naturales</b></p>
+<p class="p3L">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estÃ¡ndar de las industrias desde el aÃ±o 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usÃ³ una galerÃ­a de textos y los mezclÃ³ de tal manera que logrÃ³ hacer un libro de textos especimen. </br></p>
 
 
-<img src="img_deporte.jpg" class="p4" />
-<p class="p44L"><u><b>Deporte</b></u></p>
-<p class="p4L">Al hacer clic en "Crear cuenta",</br> aceptas las Condiciones y </br>confirmas que leíste nuestra </br>Política de datos, incluido  el uso de </br>cookies. Es posible que recibas </br>notificaciones  por SMS de Nature online,</br> que puedes desactivar en cualquier momento.</br> Al hacer clic en "Crear cuenta", y confirmas </br>que leíste nuestra Política de datos, incluido </br></p>
+<img src="deporte.jpg" class="p4" />
+<p class="p44L"><b>Deporte</b></p>
+<p class="p4L">Realizar de forma regular y sistemÃ¡tica una<br /> actividad fÃ­sica ha demostrado ser<br /> una prÃ¡ctica muy beneficiosa en la prevenciÃ³n,<br /> desarrollo y rehabilitaciÃ³n de la salud, a la vez <br />que ayuda al carÃ¡cter, la disciplina y <br />a la toma de decisiones en la vida cotidiana.<br></p>
 
 <img src="img_p2.jpg" class="p5" />
-<p class="p55L"><u><b>Beneficio de las frutas</b></u></p>
-<p class="p5L">Al hacer clic en "Crear cuenta", aceptas las Condiciones</br> y confirmas que leíste nuestra Política de datos, incluido </br> el uso de cookies. Es posible que recibas notificaciones </br> por SMS de Nature online, que puedes desactivar</br> en cualquier momento. Al hacer clic en </br>
- "Crear cuenta", y confirmas que leíste nuestra Política de datos, incluido. </br></p>
+<p class="p55L"><b>Beneficio de las frutas</b></p>
+<p class="p5L">Las frutas nos aportan agua, vitaminas, minerales, fibra y diferentes compuestos beneficiosos para el organismo.
+Por sus antioxidantes, previenen el envejecimiento prematuro de las cÃ©lulas, dÃ¡ndote una piel mÃ¡s limpia, joven, suave y sana y mayor calidad de vida. </br></p>
 
 <img src="img_producto.jpg" class="p6" />
-<p class="p66L"><u><b>Limpieza </b></u></p>
-<p class="p6L">Al hacer clic en "Crear cuenta", aceptas las Condiciones</br> y confirmas que leíste nuestra Política de datos, incluido </br> el uso de cookies. Es posible que recibas notificaciones </br> por SMS de Nature online, que puedes desactivar</br> en cualquier momento. Al hacer clic en "Crear cuenta",</br> y confirmas que leíste nuestra Política de datos, incluido </br></p>
+<p class="p66L"><b>Limpieza </b></p>
+<p class="p6L">Hoy te presentamos, ademÃ¡s de esas recetas<br /> antes mencionadas, tambiÃ©n algunas opciones naturales,<br /> mÃ¡s sencillas, y que seguramente ya tienes en casa <br />para usarlas en la limpieza,en el siguiente enlace<br /> encontraras toda la informaciÃ³n. 
+<a href="#"><br />6 productos naturales para realizar una limpieza en casa</a>
+</br></p>
 
 <img src="otros beneficios.jpg" class="p7" />
-<p class="p77L"><u><b>Otros Beneficios</b></u></p>
-<p class="p7L">Al hacer clic en "Crear cuenta", aceptas las Condiciones</br> y confirmas que leíste nuestra Política de datos, incluido </br> el uso de cookies. Es posible que recibas notificaciones </br> por SMS de Nature online, que puedes desactivar</br> en cualquier momento. Al hacer clic en "Crear cuenta",</br> y confirmas que leíste nuestra Política de datos, incluido </br></p>
+<p class="p77L"><b><a href="#">Otros Beneficios</a></b></p>
 
 </div>
   
@@ -153,10 +152,11 @@ background-attachment:fixed;
   </div>
   
   <div class="c7">
-     <p class="Tc7">------ Catalogo de productos -------- <p>
-	     <div class="z1">
+     <p class="Tc7">------ Catalogo de productos -------- <p>     
+     <p>
+     <div class="z1">
 		       <div class="zz1"></div>
-		 </div>
+    </div>
 		       <div class="z2">
 			        <div class="zz2"></div>
 			   </div>
@@ -166,52 +166,14 @@ background-attachment:fixed;
 		                 <div class="z4">
 						       <div class="zz4"></div>
 						 </div>	    
-  </div>
-  
- <?php 
-  
-  include('footer.php')
-  
- ?> 
-
-  
-  
-  
-  </body>
-</html>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
 
-    
+  
+  
+  
+<?php
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-    
+include('footer.html');
+?>
+</body>
+</html> 

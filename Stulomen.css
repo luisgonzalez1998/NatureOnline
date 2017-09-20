@@ -8,7 +8,9 @@ header{
 }
 
 nav{
-	
+position:fixed;
+z-index:1000;
+margin:0;
 margin:33px auto;
 width:90%;
 max-width:1300px;

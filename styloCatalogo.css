@@ -1,0 +1,122 @@
+/* CSS Menu del Catalogo*/
+
+.precio
+{
+font-size:36px;
+margin-top:10px;
+}
+
+.titulo
+{
+margin-top:10px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+}
+figure
+{
+margin:0;
+display:inline-block;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+margin-top:20px;
+border: 1px solid #000000;
+position:relative;
+overflow:hidden;
+border-radius:10px;
+}
+
+figcaption
+{
+transition:all 0.3s;
+background:rgba(0,0,0, 0.7);
+color:#FFFFFF;
+position:absolute;
+bottom:-240px;
+width:85%;
+padding:10%;
+
+}
+figure:hover figcaption
+{
+bottom:0px;
+
+
+
+
+
+
+}
+
+.buttom
+{	
+	color:#FFFFFF;
+	margin-left:10px;
+	height:10px;
+	width:10px;
+	padding:10px;
+	text-align:center;
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+
+	}
+	.buttom span
+{
+	margin-right: 10px;
+}
+
+
+/* Fin menu catalogo*/
+.menu
+{
+position:fixed;
+z-index:1000;
+background:#000000;
+width:960px;
+height:20px;
+top:0;
+margin-left:422px;
+color:#FFFFFF;
+padding:8px;
+border-radius:5px;
+text-align:center;
+font-size:16px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+
+}
+.caja {
+		background:rgba(0, 0, 0, 0.48);
+		color:#ffffff;
+		float:left;
+		margin-left:40px;
+		width:434px;
+		text-align:center;
+		height:410px;
+		border-radius:10px;
+		margin-top:20px;
+
+}
+
+.contenedor
+{
+/*background:#FF0000;*/
+		background:rgba(255, 0, 0, 0.04);
+	    width:1425px;
+       height:2150px;
+		margin-left:220px;
+		margin-top:10px;
+	}
+	
+.footercatalogo
+{
+background:#000000;
+width:1879px;
+height:400px;
+margin-top:10px;;
+color:#FFFFFF;
+padding:8px;
+border-radius:5px;
+text-align:center;
+font-size:16px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+

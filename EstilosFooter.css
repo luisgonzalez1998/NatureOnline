@@ -3,45 +3,44 @@
 
 .c8
 {
-position:relative;
-   top:0px;
-   left:0px;
+   position:relative;
+   top:00px;
+   left:00px;
    width:1300px;
    height:600px;
-   background: #ECE5E5;
+   background-color:rgba(0, 0, 0, 0.4);;
 
 }
 
-.linea22
+.linea
 {
 position:absolute;
-top:140px;
-left:00px;
-width:1300px;
-height:3px;
+margin-top:200px;
+left:480px;
+width:2px;
+height:390px;
 background:#000000;
 }
 
 .linea1
 {
 position:absolute;
-top:170px;
-left:450px;
-width:2px;
-height:390px;
-background:#000000;
-}
-
-.linea
-{
-position:absolute;
-top:170px;
+top:200px;
 left:850px;
 width:2px;
 height:390px;
 background:#000000;
 }
 
+.linea2
+{
+position:absolute;
+top:90px;
+left:0px;
+width:1300px;
+height:3px;
+background:#000000;
+}
 
 
 
@@ -52,11 +51,11 @@ background:#000000;
 .redes
 {
    position:absolute;
-   top:-30px;
+   top:-5px;
    left:540px;
    font-family:Verdana, Arial, Helvetica, sans-serif;
    font-size:36px;
-   color:#FFFFFF;
+   color:#000000;
 }
 
 
@@ -129,7 +128,7 @@ top:160px;
 left:160px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:20px;
-color:#000000;
+color:#FFFFFF;
 }
 
 .i7
@@ -189,7 +188,7 @@ top:225px;
 left:150px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:18px;
-color:#000000;
+color:#FFFFFF;
 }
 
 .L2
@@ -199,7 +198,7 @@ top:305px;
 left:150px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:18px;
-color:#000000;
+color:#FFFFFF;
 }
 
 .L3
@@ -209,7 +208,7 @@ top:375px;
 left:150px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:18px;
-color:#000000;
+color:#FFFFFF;
 }
 
 .L4
@@ -219,7 +218,7 @@ top:445px;
 left:150px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:18px;
-color:#000000;
+color:#FFFFFF;
 }
 
 .L5
@@ -229,7 +228,7 @@ top:520px;
 left:150px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:18px;
-color:#000000;
+color:#FFFFFF;
 }
 
 .mas
@@ -239,7 +238,7 @@ top:160px;
 left:550px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:20px;
-color:#000000;
+color:#FFFFFF;
 }
 
 .L6
@@ -249,7 +248,7 @@ top:230px;
 left:560px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:18px;
-color:#000000;
+color:#FFFFFF;
 }
 
 .L7
@@ -259,7 +258,7 @@ top:280px;
 left:560px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:18px;
-color:#000000;
+color:#FFFFFF;
 }
 
 .L8
@@ -269,7 +268,7 @@ top:330px;
 left:560px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:18px;
-color:#000000;
+color:#FFFFFF;
 }
 
 .L9
@@ -279,7 +278,7 @@ top:380px;
 left:560px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:18px;
-color:#000000;
+color:#FFFFFF;
 }
 
 .con
@@ -289,7 +288,7 @@ top:160px;
 left:970px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:20px;
-color:#000000;
+color:#FFFFFF;
 }
 
 .direccion
@@ -299,7 +298,7 @@ top:220px;
 left:920px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:18px;
-color:#000000;
+color:#FFFFFF;
 }
 
 .pbx
@@ -309,7 +308,7 @@ top:270px;
 left:920px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:18px;
-color:#000000;
+color:#FFFFFF;
 }
 
 .correo
@@ -319,7 +318,7 @@ top:320px;
 left:920px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:18px;
-color:#000000;
+color:#FFFFFF;
 }
 
 .imagen
@@ -335,11 +334,11 @@ border-radius:20px;
 
 .imagen1
 {
-position:absolute;
-top:4px;
-left:10px;
-width:200px;
-height:130px;
+position:relative;
+top:360px;
+margin-left:880px;
+height:230px;
+width:400px;
 }
 
 

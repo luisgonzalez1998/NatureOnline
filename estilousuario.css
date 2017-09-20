@@ -33,7 +33,7 @@ position:absolute;
 left: 20px;
 top:-50px;
 font-family:Verdana, Arial, Helvetica, sans-serif;/*tipo de letra*/
-font-size:70px;/*tamaÃ±o de letra*/
+font-size:70px;/*tamaño de letra*/
 color:#FFFFFF;/*color de letra*/
 }
 /*campos de texto*/
@@ -95,7 +95,7 @@ height:150px;
 .c1
 {
 	position: absolute;
-	width: 602px;
+	width: 800px;
 	height: 800px;
 	margin-top:-6px;
 	left: -2px;
@@ -654,6 +654,7 @@ color:#FFFFFF;
 
 .a2
 {
+
 position:absolute;
 top:55px;
 left:735px;
@@ -954,7 +955,7 @@ opacity:0.5;
 .footer
 {
 position:absolute;
-top:2000px;
+top:2300px;
 margin-left:40px;
 width:3000px;
 height:400px;
@@ -1345,8 +1346,9 @@ background:#993300;
 
 .c8
 {
-
-   
+   position:absolute;
+   top:2870px;
+   left:0px;
    width:1300px;
    height:400px;
    background:rgba(0, 0, 0, 0.28);
@@ -1480,3 +1482,5 @@ background:#993300;
   font-size:24px;
   color:#FFFFFF;
 }
+/* CSS Document */
+
